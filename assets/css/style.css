@@ -1,0 +1,541 @@
+/* colors
+#3bafbf
+#00a8bf
+#f7f7f7
+
+
+ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header .nav-item .nav-link {
+	font-size: 1.3em;
+}
+
+.nav-color {
+	background-color: transparent;
+}
+
+.nav-color1 {
+	background-color: #3bafbf;
+	transition:all 0.5s;
+}
+
+#home-banner {
+	background:url("../img/header-homepage.jpg") repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:700px;
+	display:table;
+}
+
+#about-banner {
+	background:url("../img/header-image-about.jpg") repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:500px;
+	display:table;
+}
+
+#departments-banner {
+	background:url("../img/header-image-departments.jpg") repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:500px;
+	display:table;
+}
+
+#articles-banner {
+	background:url("../img/header-image-articles.jpg") repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:500px;
+	display:table;
+}
+
+#appointments-banner {
+	background:url("../img/header-image-contact.jpg") repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:500px;
+	display:table;
+}
+
+#dept_overlay {
+	background-color:rgba(0,0,0,0.8);
+}
+
+#general-banner {
+	background:url("../img/general-practice.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+#cardiology-banner {
+	background:url("../img/cardiology.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+#pediatrics-banner {
+	background:url("../img/pediatrics.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+#diabetes-banner {
+	background:url("../img/diabetes-care.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+#natal_care-banner {
+	background:url("../img/pre-natel-care.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+#ultrasound-banner {
+	background:url("../img/ultrasound.jpg") no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:600px;
+	display:table;
+}
+
+.global .banner-position {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.global span {
+	color:#3bafbf;
+}
+
+#home-banner .bg-color {
+	background-color: rgba(59,175,191,0.5);
+}
+
+#home-banner .hr-color {
+	background-color: #3bafbf;
+	padding:2px;
+}
+
+#home-banner .border-top {
+	border-top: 5px solid #3bafbf !important;
+}
+
+header #nav-bg {
+	background-color: #25c8de;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+header #nav-bg:hover {
+	color:#fff;
+	opacity: 0.8;
+}
+
+@media only screen and (max-width:772px) {
+	.global h1 {
+		font-size:40px;
+		padding-top:5rem;
+	}
+} 
+
+@media only screen and (max-width:360px) {
+	.global h1 {
+		padding-top:8rem;
+		font-size:2rem;
+	}
+	.global p {
+		font-size:1rem;
+	}
+	.global h4 {
+		font-size:1rem;
+	}
+	h2 {
+		font-size:1rem;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	header #change-color {
+		background-color: #3bafbf;
+		text-align:center;
+	}
+}
+
+#meet_doctors {
+	background-color: #f7f7f7;
+}
+
+#meet_doctors .fa-facebook-square, #secondary_footer .fa-facebook-square{
+	color:#3b5998;
+	margin:5px;
+}
+
+#meet_doctors .fa-twitter-square, #secondary_footer .fa-twitter-square{
+	color:#55acee;
+	margin:5px;
+}
+
+#meet_doctors .fa-instagram, #secondary_footer .fa-instagram{
+	color:#3f729b;
+	margin:5px;
+}
+
+#secondary_footer .fa-pinterest-square{
+	color:#3f729b;
+	margin:5px;
+}
+
+#secondary_footer .fa-linkedin{
+	color:#3f729b;
+	margin:5px;
+}
+
+#meet_doctors a, #secondary_footer a {
+	transition:all 0.3s;
+}
+
+#meet_doctors a:hover {
+	opacity:0.5;
+}
+
+#secondary_footer a:hover {
+	opacity:0.5;
+}
+
+#facilities {
+	background: url("../img/facilities1.jpg") fixed;
+	background-size: cover;
+	width:100%;
+	height:500px;
+}
+
+#facilities button {
+	background-color: transparent;
+    border: none;
+}
+
+#facilities_details .btn-outline-primary {
+	border: 0.5px solid #fff;
+	color:#fff;
+}
+
+#facilities_details .btn-outline-primary:hover {
+	border:none;
+	background-color: #00a8bf;
+}
+
+#facilities_details .bg-1 {
+	background-color: #59b2da;
+	transition: all 0.3s;
+}
+
+#facilities_details .bg-2 {
+	background-color: #3697c3;
+	transition: all 0.3s;
+}
+
+#facilities_details .bg-3 {
+	background-color: #327ec7;
+	transition: all 0.3s;
+}
+
+#facilities_details .bg-1:hover {
+	opacity:0.8;
+}
+
+#facilities_details .bg-2:hover {
+	opacity:0.8;
+}
+
+#facilities_details .bg-3:hover {
+	opacity:0.8;
+}
+
+#appointment .btn-primary {
+	background-color: #3bafbf;
+	border:none;
+	transition: all 0.3s;
+}
+
+#appointment .btn-primary:hover {
+	background-color: #3697c3;
+}
+
+#appointment {
+	background: url("../img/facilities2.jpg") fixed;
+	background-size: cover;
+	width:100%;
+	height:850px;
+}
+
+#slider {
+	background-color: #3697c3;
+}
+
+.slick_slider {
+	max-width:100%;
+}
+
+#secondary_footer .icon-color {
+	color: #3bafbf;
+}
+
+.medical-departments .fa-chevron-circle-right {
+	color:#3697c3;
+}
+
+.medical-departments a {
+	color:#3697c3;
+	text-decoration: none;
+}
+
+.medical-departments {
+	font-size: 20px;
+}
+
+#secondary_footer {
+	background-color: #17a2b80a;
+}
+
+#footer {
+	display:table;
+	width:100%;
+}
+
+#footer p {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width:376px) {
+	#secondary_footer h4 {
+		font-size:20px;
+	}
+}
+
+#values .fa-chevron-circle-right {
+	color:#3bafbf;
+}
+
+#values #accordion .card {
+	background-color:rgba(59,175,191,0.5);
+	color:#fff;
+}
+
+#values #accordion .collapse {
+	background-color: #fff;
+	color:#aaa;
+}
+
+/*Accordiam + and - signs*/
+
+#accordion .d-block:before {
+   content: "-";
+   position:relative;
+   color:#fff;
+   margin-right:10px;
+}
+
+#accordion .d-block.collapsed:before {
+   content: "+";
+}
+
+#accordion .card-header {
+	cursor:pointer;
+}
+
+#testimonials .card {
+	border:none;
+}
+
+#testimonials img {
+	width:150px;
+}
+
+.slick_slider1 img {
+	margin:auto;
+}
+
+#testimonials {
+	background: url("../img/testimonials.jpg") fixed;
+	background-size: cover;
+	width:100%;
+	height:500px;
+}
+
+@media only screen and (max-width:772px) {
+	#about-banner {
+		height:100px;
+	}
+}
+
+@media only screen and (max-width:772px) {
+	#testimonials .card-text > p {
+		display:none;
+	}
+
+	#testimonials .card-title > p {
+		font-size:0.6em;
+	}
+}
+
+@media only screen and (max-width:772px) {
+	.our_values {
+		padding:0px;
+		width:100%;
+	}
+}
+
+@media only screen and (max-width:772px) {
+	.values_img {
+		padding-bottom:15px;
+	}
+}
+
+@media only screen and (max-width:772px) {
+	#testimonials {
+		height:400px;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	#values .container-fluid .padding_all {
+		padding:2em;
+	}
+}
+
+#testimonials .card {
+	background-color: transparent;
+}
+
+#testimonials .card .card-body {
+	color:#fff;
+}
+
+#facilities_details .bg-4 {
+	background-color: #2086e8;
+}
+
+#overview {
+	background-color: #f7f7f7;
+}
+
+@media only screen and (max-width:768px) {
+	#departments-banner {
+		height:400px;
+	}
+}
+
+#departments-appointment {
+	background: url("../img/facilities2.jpg") fixed;
+	background-size: cover;
+	width:100%;
+	height:300px;
+	display:table;
+}
+
+#departments-appointment .allign-middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#articles {
+	background-color: #f7f7f7;
+}
+
+@media only screen and (max-width:768px) {
+	#articles-banner {
+		height:300px;
+	}
+}
+
+#book_appointments .col-md-4 .fa-map-marker-alt, 
+#book_appointments .col-md-4 .fa-phone, 
+#book_appointments .col-md-4 .fa-envelope,
+#book_appointments .fa-clock,
+#book_appointments .fa-hand-point-down {
+	color:#3bafbf;
+}
+
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.details_icon .fa-chevron-circle-right {
+	color:#3bafbf;
+}
+
+#details .col-md-8, #details .col-md-4 {
+	border:10px solid #f8f9fa;
+}
+
+#details .fa-clock, #details .fa-clipboard, #details .fa-phone, #details .fa-map-marker-alt{
+	color:#3bafbf;
+}
+
+.dropdown-item:hover {
+	color:#3bafbf;
+}
+
+/*Form Messages Style*/
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
